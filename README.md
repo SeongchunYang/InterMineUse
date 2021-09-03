@@ -18,7 +18,7 @@ But this is what I found useful in many of their functions, and I hope it gives 
 
 Note that due to how GO terms are structured and created, some gene names may overlap between GO term levels. As such, only unique list of gene names are returned.
 
-- <code>query.py</code> allows you to run the job on the command line. The script will ask for a text file of individual GO term names on every line. It will then return the genelist contained in the GO term through the form of a .csv file all of which are saved in a newly created folder <code>GOterms</code>code> in the current directory. This script can be tested by using the test file provided <code>testTerms.txt</code>.
+- <code>query.py</code> allows you to run the job on the command line. The script will ask for a text file of individual GO term names on every line. It will then return the genelist contained in the GO term through the form of a .csv file all of which are saved in a newly created folder <code>GOterms</code> in the current directory. This script can be tested by using the test file provided <code>testTerms.txt</code>.
     - In order to run, use the following line in your terminal; <code> python {your directory}/InterMineUse/query.py</code>.
     - The script will prompt you to provide a .txt file containing the GO terms. Provide the absolute pathname for the file without quotes. An example is like the following; <code>{your directory}/InterMineUse/testTerms.txt</code>.
 
