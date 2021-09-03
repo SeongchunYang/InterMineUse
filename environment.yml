@@ -1,0 +1,11 @@
+name: intermine
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas
+  - intermine
+  - ipykernel
+
