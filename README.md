@@ -18,11 +18,11 @@ But this is what I found useful in many of their functions, and I hope it gives 
 
 Note that due to how GO terms are structured and created, some gene names may overlap between GO term levels. As such, only unique list of gene names are returned.
 
-- <code>mousemine_query.py</code> allows you to run the job on the command line. The script will ask for a text file of individual GO term names on every line. It will then return the genelist contained in the GO term through the form of a .csv file. This script can be tested by using the test file provided <code>testTerms.txt</code>.
-    - In order to run, use the following line in your terminal; <code> python {your directory}/InterMineUse/queryExample.py</code>.
+- <code>query.py</code> allows you to run the job on the command line. The script will ask for a text file of individual GO term names on every line. It will then return the genelist contained in the GO term through the form of a .csv file all of which are saved in a newly created folder <code>GOterms</code>code> in the current directory. This script can be tested by using the test file provided <code>testTerms.txt</code>.
+    - In order to run, use the following line in your terminal; <code> python {your directory}/InterMineUse/query.py</code>.
     - The script will prompt you to provide a .txt file containing the GO terms. Provide the absolute pathname for the file without quotes. An example is like the following; <code>{your directory}/InterMineUse/testTerms.txt</code>.
 
-- <code>mousemine_query.ipynb</code> allows you to run the job on an ipython notebook. You can run this on jupyter or your IDE of choice. Since everything is configurable on the spot, just input your GO terms as a list of strings and the script will take care of the rest.
+- <code>query.ipynb</code> allows you to run the job on an ipython notebook. You can run this on jupyter or your IDE of choice. Since everything is configurable on the spot, just input your GO terms as a list of strings and the script will take care of the rest.
 
 
 ## System Requirements
